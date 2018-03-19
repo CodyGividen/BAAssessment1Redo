@@ -14,6 +14,6 @@ public class Love extends AppCompatActivity {
         ActionBar actionBar = getSupportActionBar();
         actionBar.hide();
         setContentView(R.layout.activity_love);
-        love = love.findViewById(R.id.love_textview);
+        love = findViewById(R.id.love_textview);
     }
 }
